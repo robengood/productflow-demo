@@ -1,0 +1,45 @@
+name: Publish ProductFlow to GitHub Pages
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Verify source bundle and run tests
+        run: |
+          unzip -q productflow-github-ready.zip -d source
+          cd source/productflow
+          python3 -m unittest discover -s tests -v
+          python3 catalog.py data/products_demo.csv --output output
+      - name: Prepare static catalogue
+        run: |
+          unzip -q productflow-pages-ready.zip -d extracted
+          mkdir site
+          cp -R extracted/pages/. site/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
