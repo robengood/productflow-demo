@@ -1,0 +1,27 @@
+{
+  "input_hardlink": {
+    "exit": 0,
+    "input_changed": true,
+    "expected": "Reject aliased output before writing; preserve input"
+  },
+  "unrelated_hardlink": {
+    "exit": 0,
+    "other_file_changed": true,
+    "expected": "Output must not modify files outside its directory"
+  },
+  "non_file_output": {
+    "exit": 2,
+    "normalized_changed": true,
+    "html_changed": false,
+    "expected": "Fail without changing previous output"
+  },
+  "missing_referenced_asset": {
+    "raised": false,
+    "image_exists": false
+  },
+  "test_blind_spot": {
+    "end_to_end_asserts_unused_desk_svg": true,
+    "write_io_failure_tests": 0,
+    "file_alias_tests": 0
+  }
+}

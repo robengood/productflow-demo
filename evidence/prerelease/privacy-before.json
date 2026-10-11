@@ -1,0 +1,22 @@
+{
+  "scan": [
+    {
+      "file": "evidence/build.txt",
+      "kind": "private_local_path"
+    }
+  ],
+  "fonts": [
+    {
+      "name": "arial.ttf",
+      "fsType": 8
+    },
+    {
+      "name": "arialbd.ttf",
+      "fsType": 8
+    }
+  ],
+  "archive_mismatches": [],
+  "archive_test_exit": 0,
+  "archive_test_summary": "Ran 37 tests",
+  "resume_available": false
+}

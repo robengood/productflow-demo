@@ -1,0 +1,51 @@
+test_all_duplicate_occurrences_excluded (test_catalog.CatalogTests.test_all_duplicate_occurrences_excluded) ... ok
+test_all_rejected_state_has_reason_and_no_category_controls (test_catalog.CatalogTests.test_all_rejected_state_has_reason_and_no_category_controls) ... ok
+test_bad_sku (test_catalog.CatalogTests.test_bad_sku) ... ok
+test_blank_record_is_reported_not_silently_dropped (test_catalog.CatalogTests.test_blank_record_is_reported_not_silently_dropped) ... ok
+test_blocked_output_keeps_previous_bundle (test_catalog.CatalogTests.test_blocked_output_keeps_previous_bundle) ... ok
+test_cli_fatal_input_leaves_existing_output (test_catalog.CatalogTests.test_cli_fatal_input_leaves_existing_output) ... ok
+test_cli_missing_file (test_catalog.CatalogTests.test_cli_missing_file) ... ok
+test_column_count (test_catalog.CatalogTests.test_column_count) ... ok
+test_comma_delimiter_and_quoted_multiline (test_catalog.CatalogTests.test_comma_delimiter_and_quoted_multiline) ... ok
+test_commit_failure_restores_all_previous_files (test_catalog.CatalogTests.test_commit_failure_restores_all_previous_files) ... ok
+test_decimal_precision (test_catalog.CatalogTests.test_decimal_precision) ... ok
+test_demo_end_to_end_and_repeatability (test_catalog.CatalogTests.test_demo_end_to_end_and_repeatability) ... ok
+test_duplicate_conflict_with_invalid_row (test_catalog.CatalogTests.test_duplicate_conflict_with_invalid_row) ... ok
+test_empty_file (test_catalog.CatalogTests.test_empty_file) ... ok
+test_failed_new_bundle_removes_committed_files (test_catalog.CatalogTests.test_failed_new_bundle_removes_committed_files) ... ok
+test_formula_like_text_rejected (test_catalog.CatalogTests.test_formula_like_text_rejected) ... ok
+test_hardlink_to_other_file_is_refused_without_changes (test_catalog.CatalogTests.test_hardlink_to_other_file_is_refused_without_changes) ... ok
+test_hardlink_to_source_is_refused_without_changes (test_catalog.CatalogTests.test_hardlink_to_source_is_refused_without_changes) ... ok
+test_header_only_generates_empty_catalog (test_catalog.CatalogTests.test_header_only_generates_empty_catalog) ... ok
+test_hidden_characters_rejected_in_all_fields (test_catalog.CatalogTests.test_hidden_characters_rejected_in_all_fields) ... ok
+test_html_escaped (test_catalog.CatalogTests.test_html_escaped) ... ok
+test_input_size_limit_is_explicit (test_catalog.CatalogTests.test_input_size_limit_is_explicit) ... ok
+test_invalid_encoding_and_csv_syntax (test_catalog.CatalogTests.test_invalid_encoding_and_csv_syntax) ... ok
+test_invalid_headers (test_catalog.CatalogTests.test_invalid_headers) ... ok
+test_invalid_prices (test_catalog.CatalogTests.test_invalid_prices) ... ok
+test_missing_referenced_asset_keeps_previous_output (test_catalog.CatalogTests.test_missing_referenced_asset_keeps_previous_output) ... ok
+test_multiline_issue_has_physical_end_line (test_catalog.CatalogTests.test_multiline_issue_has_physical_end_line) ... ok
+test_multiple_errors_in_one_record (test_catalog.CatalogTests.test_multiple_errors_in_one_record) ... ok
+test_normalization_bom_and_optional_description (test_catalog.CatalogTests.test_normalization_bom_and_optional_description) ... ok
+test_normalization_changes_preserve_exact_original (test_catalog.CatalogTests.test_normalization_changes_preserve_exact_original) ... ok
+test_normalized_csv_can_be_processed_again (test_catalog.CatalogTests.test_normalized_csv_can_be_processed_again) ... ok
+test_redirected_asset_directory_is_refused (test_catalog.CatalogTests.test_redirected_asset_directory_is_refused) ... ok
+test_rejected_records_preserve_all_original_cells (test_catalog.CatalogTests.test_rejected_records_preserve_all_original_cells) ... ok
+test_reordered_columns_keep_correct_field_mapping (test_catalog.CatalogTests.test_reordered_columns_keep_correct_field_mapping) ... ok
+test_report_csv_formula_values_are_literal (test_catalog.CatalogTests.test_report_csv_formula_values_are_literal) ... ok
+test_required_fields_independently (test_catalog.CatalogTests.test_required_fields_independently) ... ok
+test_rollback_failure_preserves_recovery_backup (test_catalog.CatalogTests.test_rollback_failure_preserves_recovery_backup) ... ok
+test_source_cannot_be_overwritten (test_catalog.CatalogTests.test_source_cannot_be_overwritten) ... ok
+test_special_csv_characters_and_html_report_escaping (test_catalog.CatalogTests.test_special_csv_characters_and_html_report_escaping) ... ok
+test_staging_failure_does_not_touch_previous_files (test_catalog.CatalogTests.test_staging_failure_does_not_touch_previous_files) ... ok
+test_stock_boundaries (test_catalog.CatalogTests.test_stock_boundaries) ... ok
+test_template_failure_does_not_overwrite_previous_output (test_catalog.CatalogTests.test_template_failure_does_not_overwrite_previous_output) ... ok
+test_text_length_limits (test_catalog.CatalogTests.test_text_length_limits) ... ok
+test_unicode_sku_does_not_expand_into_valid_identifier (test_catalog.CatalogTests.test_unicode_sku_does_not_expand_into_valid_identifier) ... ok
+test_unknown_category (test_catalog.CatalogTests.test_unknown_category) ... ok
+test_unknown_product_gets_explicit_placeholder (test_catalog.CatalogTests.test_unknown_product_gets_explicit_placeholder) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 1.222s
+
+OK

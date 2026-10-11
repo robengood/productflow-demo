@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ProductFlow: проверка CSV, нормализация данных и сборка статического товарного каталога.">
+  <title>ProductFlow — каталог из CSV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="skip-link" href="#catalog">Перейти к товарам</a>
+<header class="site-header wrap" id="top">
+  <a class="brand" href="#top" aria-label="ProductFlow, начало страницы"><span class="brand-mark" aria-hidden="true">pf</span>ProductFlow<span class="brand-caption">CSV → каталог</span></a>
+  <nav class="header-nav" aria-label="Основная навигация"><a href="#catalog">Товары</a><a href="#data-report">Обработка данных</a></nav>
+  <span class="demo-label">Учебный проект</span>
+</header>
+<main>
+  <section class="intro-section wrap" aria-labelledby="page-title">
+    <div class="intro-copy"><p class="eyebrow">КАТАЛОГ ИЗ ПРОВЕРЕННЫХ ДАННЫХ</p><h1 id="page-title">Товары для<br>рабочего стола</h1><p class="intro">Страница собрана из CSV после проверки товаров.<br class="desktop-break"> Данные и иллюстрации вымышлены. Покупка недоступна.</p></div>
+    <aside class="build-summary" aria-label="Краткий результат обработки">
+      <p class="summary-label">$status</p>
+      <dl class="summary-numbers"><div><dt>В каталоге</dt><dd>$accepted_records</dd></div><div><dt>Отклонено</dt><dd>$rejected_records</dd></div></dl>
+      <a class="button" href="normalized.csv" download>Скачать товары <span>CSV ↓</span></a>
+      <a class="summary-link" href="#data-report">Причины отклонения и файлы обработки <span aria-hidden="true">↗</span></a>
+    </aside>
+  </section>
+  <div class="wrap catalog" id="catalog">
+    <div class="catalog-heading"><h2>Товары</h2><p>Позиций: <strong>$accepted_records</strong><span aria-hidden="true"> / </span>Цены в рублях</p></div>
+    $navigation
+    $cards
+  </div>
+  <section class="report wrap" id="data-report" aria-labelledby="report-title">
+    <div class="report-heading"><div><p class="eyebrow">CSV → ПРОВЕРКА → КАТАЛОГ</p><h2 id="report-title">Результаты обработки</h2></div><p>Python проверяет данные при сборке.<br>Браузер показывает готовую страницу.</p></div>
+    <dl class="stats"><div><dt>Исходных записей</dt><dd>$input_records</dd></div><div><dt>Принято</dt><dd>$accepted_records</dd></div><div><dt>Отклонено</dt><dd>$rejected_records</dd></div><div><dt>Ошибок в полях</dt><dd>$issue_count</dd></div></dl>
+    <p class="report-explanation">Одна запись может содержать несколько ошибок. Изменений формата в принятых данных: $change_count. Каждое записано в журнале с исходным и итоговым значением.</p>
+    $issue_details
+    <div class="report-links"><a href="normalized.csv" download><strong>Товары</strong><span>Нормализованный CSV ↓</span></a><a href="issues.csv" download><strong>Ошибки</strong><span>Записи и причины · CSV ↓</span></a><a href="changes.csv" download><strong>Изменения</strong><span>Значения до и после · CSV ↓</span></a><a href="report.json" download><strong>Полный отчёт</strong><span>Включая отклонённые записи · JSON ↓</span></a></div>
+    <p class="report-help">Чтобы обновить каталог, исправьте исходный CSV и запустите Python заново. Загрузка файлов через браузер не предусмотрена.</p>
+  </section>
+</main>
+<footer class="wrap"><strong>ProductFlow</strong><p>Демонстрационный проект на синтетических данных.<br>Подготовлен с использованием AI-инструментов.</p><a href="#top">В начало ↑</a></footer>
+</body>
+</html>
+

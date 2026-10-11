@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-11T13:53:38+00:00",
+  "pages": 3,
+  "bytes": 341187,
+  "sha256": "ffc6f89cd8fc0a632d94626579456e0c1dc31dcff153f8bc0e1b468957d9ab53",
+  "checks": {
+    "three_pages": true,
+    "project_and_disclosure": true,
+    "data_examples": true,
+    "current_test_count": true,
+    "limitations_present": true,
+    "images_on_every_page": true
+  },
+  "visual_review": "The refreshed three-page PDF was rendered and visually reviewed; the final page now includes the verified public catalog and GitHub links."
+}

@@ -1,0 +1,2 @@
+{"input_records": 20, "accepted_records": 12, "rejected_records": 8, "issue_count": 10}
+Каталог и отчёты: <project>\output

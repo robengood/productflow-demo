@@ -1,0 +1,141 @@
+{
+  "phase": "before fixes",
+  "viewports": [
+    {
+      "cards": 12,
+      "client": 305,
+      "clippedCards": 0,
+      "columns": "265px",
+      "images": true,
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "cards": 12,
+      "client": 360,
+      "clippedCards": 0,
+      "columns": "320px",
+      "images": true,
+      "scroll": 360,
+      "width": 375
+    },
+    {
+      "cards": 12,
+      "client": 753,
+      "clippedCards": 0,
+      "columns": "334.5px 334.5px",
+      "images": true,
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "cards": 12,
+      "client": 1009,
+      "clippedCards": 0,
+      "columns": "462.5px 462.5px",
+      "images": true,
+      "scroll": 1009,
+      "width": 1024
+    },
+    {
+      "cards": 12,
+      "client": 1425,
+      "clippedCards": 0,
+      "columns": "281px 281px 281px 281px",
+      "images": true,
+      "scroll": 1425,
+      "width": 1440
+    }
+  ],
+  "interactions": [
+    {
+      "action": "Tab from brand",
+      "focused": "Товары",
+      "outline": "solid",
+      "outlineWidth": "3px"
+    },
+    {
+      "action": "Keyboard details open",
+      "focus": "SUMMARY",
+      "open": true,
+      "rows": 10
+    },
+    {
+      "action": "Keyboard details close",
+      "open": false
+    }
+  ],
+  "contrast": [
+    {
+      "background": "rgb(246, 246, 242)",
+      "color": "rgb(34, 61, 52)",
+      "fontSize": "52px",
+      "ratio": 10.8582323022708,
+      "selector": "h1"
+    },
+    {
+      "background": "rgb(246, 246, 242)",
+      "color": "rgb(89, 103, 95)",
+      "fontSize": "14px",
+      "ratio": 5.490768341119979,
+      "selector": ".intro"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(89, 103, 95)",
+      "fontSize": "12px",
+      "ratio": 5.948817698764646,
+      "selector": ".description"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(89, 103, 95)",
+      "fontSize": "10px",
+      "ratio": 5.948817698764646,
+      "selector": ".sku"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(53, 93, 69)",
+      "fontSize": "11px",
+      "ratio": 7.491835692510257,
+      "selector": ".stock"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(135, 80, 55)",
+      "fontSize": "11px",
+      "ratio": 6.4958952413054,
+      "selector": ".stock.empty"
+    },
+    {
+      "background": "rgb(232, 237, 227)",
+      "color": "rgb(97, 112, 96)",
+      "fontSize": "9px",
+      "ratio": 4.419199851736317,
+      "selector": ".image-note"
+    },
+    {
+      "background": "rgb(37, 77, 63)",
+      "color": "rgb(255, 255, 255)",
+      "fontSize": "12px",
+      "ratio": 9.493713378698342,
+      "selector": ".button"
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(34, 61, 52)",
+      "fontSize": "11px",
+      "ratio": 11.76404475368397,
+      "selector": ".summary-link"
+    },
+    {
+      "background": "rgb(233, 238, 229)",
+      "color": "rgb(34, 61, 52)",
+      "fontSize": "11px",
+      "ratio": 9.98597687144263,
+      "selector": ".demo-label"
+    }
+  ],
+  "logs": []
+}

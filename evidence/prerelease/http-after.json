@@ -1,0 +1,139 @@
+{
+  "requests": [
+    {
+      "file": ".nojekyll",
+      "status": 200,
+      "bytes": 0,
+      "matches": true
+    },
+    {
+      "file": "assets/ac-001.svg",
+      "status": 200,
+      "bytes": 449,
+      "matches": true
+    },
+    {
+      "file": "assets/ac-002.svg",
+      "status": 200,
+      "bytes": 513,
+      "matches": true
+    },
+    {
+      "file": "assets/ac-003.svg",
+      "status": 200,
+      "bytes": 688,
+      "matches": true
+    },
+    {
+      "file": "assets/ac-004.svg",
+      "status": 200,
+      "bytes": 562,
+      "matches": true
+    },
+    {
+      "file": "assets/ds-001.svg",
+      "status": 200,
+      "bytes": 491,
+      "matches": true
+    },
+    {
+      "file": "assets/ds-002.svg",
+      "status": 200,
+      "bytes": 676,
+      "matches": true
+    },
+    {
+      "file": "assets/ds-003.svg",
+      "status": 200,
+      "bytes": 657,
+      "matches": true
+    },
+    {
+      "file": "assets/ds-004.svg",
+      "status": 200,
+      "bytes": 529,
+      "matches": true
+    },
+    {
+      "file": "assets/favicon.svg",
+      "status": 200,
+      "bytes": 278,
+      "matches": true
+    },
+    {
+      "file": "assets/placeholder.svg",
+      "status": 200,
+      "bytes": 376,
+      "matches": true
+    },
+    {
+      "file": "assets/pp-001.svg",
+      "status": 200,
+      "bytes": 568,
+      "matches": true
+    },
+    {
+      "file": "assets/pp-002.svg",
+      "status": 200,
+      "bytes": 703,
+      "matches": true
+    },
+    {
+      "file": "assets/pp-003.svg",
+      "status": 200,
+      "bytes": 577,
+      "matches": true
+    },
+    {
+      "file": "assets/pp-004.svg",
+      "status": 200,
+      "bytes": 660,
+      "matches": true
+    },
+    {
+      "file": "changes.csv",
+      "status": 200,
+      "bytes": 441,
+      "matches": true
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 14538,
+      "matches": true
+    },
+    {
+      "file": "issues.csv",
+      "status": 200,
+      "bytes": 1524,
+      "matches": true
+    },
+    {
+      "file": "normalized.csv",
+      "status": 200,
+      "bytes": 1793,
+      "matches": true
+    },
+    {
+      "file": "report.json",
+      "status": 200,
+      "bytes": 8479,
+      "matches": true
+    },
+    {
+      "file": "SHA256SUMS.txt",
+      "status": 200,
+      "bytes": 1746,
+      "matches": true
+    },
+    {
+      "file": "style.css",
+      "status": 200,
+      "bytes": 10909,
+      "matches": true
+    }
+  ],
+  "static_resource_bytes": 33174,
+  "external_resources": 0,
+  "exact_filename_case_checked": true
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ProductFlow: проверка CSV, нормализация данных и сборка статического товарного каталога.">
+  <title>ProductFlow — каталог из CSV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="skip-link" href="#catalog">Перейти к товарам</a>
+<header class="site-header wrap" id="top">
+  <a class="brand" href="#top" aria-label="ProductFlow, начало страницы"><span class="brand-mark" aria-hidden="true">pf</span>ProductFlow<span class="brand-caption">CSV → каталог</span></a>
+  <nav class="header-nav" aria-label="Основная навигация"><a href="#catalog">Товары</a><a href="#data-report">Обработка данных</a></nav>
+  <span class="demo-label">Учебный проект</span>
+</header>
+<main>
+  <section class="intro-section wrap" aria-labelledby="page-title">
+    <div class="intro-copy"><p class="eyebrow">КАТАЛОГ ИЗ ПРОВЕРЕННЫХ ДАННЫХ</p><h1 id="page-title">Товары для<br>рабочего стола</h1><p class="intro">Страница собрана из CSV после проверки товаров.<br class="desktop-break"> Данные и иллюстрации вымышлены. Покупка недоступна.</p></div>
+    <aside class="build-summary" aria-label="Краткий результат обработки">
+      <p class="summary-label">Есть записи для исправления</p>
+      <dl class="summary-numbers"><div><dt>В каталоге</dt><dd>12</dd></div><div><dt>Отклонено</dt><dd>8</dd></div></dl>
+      <a class="button" href="normalized.csv" download>Скачать товары <span>CSV ↓</span></a>
+      <a class="summary-link" href="#data-report">Причины отклонения и файлы обработки <span aria-hidden="true">↗</span></a>
+    </aside>
+  </section>
+  <div class="wrap catalog" id="catalog">
+    <div class="catalog-heading"><h2>Товары</h2><p>Позиций: <strong>12</strong><span aria-hidden="true"> / </span>Цены в рублях</p></div>
+    <nav class="category-nav" aria-label="Перейти к категории"><span>Перейти к категории</span><a href="#organization">Организация <span aria-hidden="true">↓</span></a><a href="#paper">Бумага <span aria-hidden="true">↓</span></a><a href="#accessories">Аксессуары <span aria-hidden="true">↓</span></a></nav>
+    <section class="category-section" id="organization" aria-labelledby="title-organization"><div class="section-heading"><h2 id="title-organization">Организация</h2><span>Позиций: 4</span></div><div class="grid"><article class="card" data-sku="DS-001">
+<div class="visual organization"><img src="assets/ds-001.svg" alt="" width="480" height="300"><span class="image-note">Иллюстрация</span></div>
+<div class="card-body"><span class="sku">DS-001</span><h3>Лоток «Линия»</h3><p class="description">Открытый лоток для заметок и мелочей.</p>
+<div class="card-bottom"><strong class="price">1 290,00 <span>₽</span></strong><span class="stock ">В наличии: 12 шт.</span></div></div></article><article class="card" data-sku="DS-002">
+<div class="visual organization"><img src="assets/ds-002.svg" alt="" width="480" height="300"><span class="image-note">Иллюстрация</span></div>
+<div class="card-body"><span class="sku">DS-002</span><h3>Подставка «Ритм»</h3><p class="description">Настольная подставка для ручек и карандашей.</p>
+<div class="card-bottom"><strong class="price">890,00 <span>₽</span></strong><span class="stock ">В наличии: 8 шт.</span></div></div></article><article class="card" data-sku="DS-003">
+<div class="visual organization"><img src="assets/ds-003.svg" alt="" width="480" height="300"><span class="image-note">Иллюстрация</span></div>
+<div class="card-body"><span class="sku">DS-003</span><h3>Органайзер «Форма»</h3><p class="description">Отдельные секции для хранения канцелярии.</p>
+<div class="card-bottom"><strong class="price">1 590,50 <span>₽</span></strong><span class="stock ">В наличии: 5 шт.</span></div></div></article><article class="card" data-sku="DS-004">
+<div class="visual organization"><img src="assets/ds-004.svg" alt="" width="480" height="300"><span class="image-note">Иллюстрация</span></div>
+<div class="card-body"><span class="sku">DS-004</span><h3>Держатель «Точка»</h3><p class="description">Держатель для карточки или короткой заметки.</p>
+<div class="card-bottom"><strong class="price">450,00 <span>₽</span></strong><span class="stock empty">Нет в наличии</span></div></div></article></div></section><section class="category-section" id="paper" aria-labelledby="title-paper"><div class="section-heading"><h2 id="title-paper">Бумага</h2><span>Позиций: 4</span></div><div class="grid"><article class="card" data-sku="PP-001">
+<div class="visual paper"><img src="assets/pp-001.svg" alt="" width="480" height="300"><span class="image-note">Иллюстрация</span></div>
+<div class="card-body"><span class="sku">PP-001</span><h3>Блокнот «Поле»</h3><p class="description">Блокнот для повседневных записей и планов.</p>
+<div class="card-bottom"><strong class="price">690,00 <span>₽</span></strong><span class="stock ">В наличии: 24 шт.</span></div></div></article><article class="card" data-sku="PP-002">
+<div class="visual paper"><img src="assets/pp-002.svg" alt="" width="480" height="300"><span class="image-note">Иллюстрация</span></div>
+<div class="card-body"><span class="sku">PP-002</span><h3>Планер «Неделя»</h3><p class="description">Листы с разметкой для недельного планирования.</p>
+<div class="card-bottom"><strong class="price">790,00 <span>₽</span></strong><span class="stock ">В наличии: 15 шт.</span></div></div></article><article class="card" data-sku="PP-003">
+<div class="visual paper"><img src="assets/pp-003.svg" alt="" width="480" height="300"><span class="image-note">Иллюстрация</span></div>
+<div class="card-body"><span class="sku">PP-003</span><h3>Карточки «Мысль»</h3><p class="description">Карточки для коротких записей и напоминаний.</p>
+<div class="card-bottom"><strong class="price">320,00 <span>₽</span></strong><span class="stock ">В наличии: 30 шт.</span></div></div></article><article class="card" data-sku="PP-004">
+<div class="visual paper"><img src="assets/pp-004.svg" alt="" width="480" height="300"><span class="image-note">Иллюстрация</span></div>
+<div class="card-body"><span class="sku">PP-004</span><h3>Тетрадь «Эскиз»</h3><p class="description">Тетрадь для свободных заметок и набросков.</p>
+<div class="card-bottom"><strong class="price">540,00 <span>₽</span></strong><span class="stock ">В наличии: 11 шт.</span></div></div></article></div></section><section class="category-section" id="accessories" aria-labelledby="title-accessories"><div class="section-heading"><h2 id="title-accessories">Аксессуары</h2><span>Позиций: 4</span></div><div class="grid"><article class="card" data-sku="AC-001">
+<div class="visual accessories"><img src="assets/ac-001.svg" alt="" width="480" height="300"><span class="image-note">Иллюстрация</span></div>
+<div class="card-body"><span class="sku">AC-001</span><h3>Коврик «Основа»</h3><p class="description">Коврик для рабочей поверхности стола.</p>
+<div class="card-bottom"><strong class="price">1 890,00 <span>₽</span></strong><span class="stock ">В наличии: 6 шт.</span></div></div></article><article class="card" data-sku="AC-002">
+<div class="visual accessories"><img src="assets/ac-002.svg" alt="" width="480" height="300"><span class="image-note">Иллюстрация</span></div>
+<div class="card-body"><span class="sku">AC-002</span><h3>Закладка «Пауза»</h3><p class="description">Закладка для книги, тетради или блокнота.</p>
+<div class="card-bottom"><strong class="price">190,00 <span>₽</span></strong><span class="stock ">В наличии: 40 шт.</span></div></div></article><article class="card" data-sku="AC-003">
+<div class="visual accessories"><img src="assets/ac-003.svg" alt="" width="480" height="300"><span class="image-note">Иллюстрация</span></div>
+<div class="card-body"><span class="sku">AC-003</span><h3>Клипсы «Связь»</h3><p class="description">Клипсы для размещения проводов на столе.</p>
+<div class="card-bottom"><strong class="price">280,00 <span>₽</span></strong><span class="stock ">В наличии: 18 шт.</span></div></div></article><article class="card" data-sku="AC-004">
+<div class="visual accessories"><img src="assets/ac-004.svg" alt="" width="480" height="300"><span class="image-note">Иллюстрация</span></div>
+<div class="card-body"><span class="sku">AC-004</span><h3>Подставка «Круг»</h3><p class="description">Подставка под чашку для рабочего стола.</p>
+<div class="card-bottom"><strong class="price">390,00 <span>₽</span></strong><span class="stock ">В наличии: 9 шт.</span></div></div></article></div></section>
+  </div>
+  <section class="report wrap" id="data-report" aria-labelledby="report-title">
+    <div class="report-heading"><div><p class="eyebrow">CSV → ПРОВЕРКА → КАТАЛОГ</p><h2 id="report-title">Результаты обработки</h2></div><p>Python проверяет данные при сборке.<br>Браузер показывает готовую страницу.</p></div>
+    <dl class="stats"><div><dt>Исходных записей</dt><dd>20</dd></div><div><dt>Принято</dt><dd>12</dd></div><div><dt>Отклонено</dt><dd>8</dd></div><div><dt>Ошибок в полях</dt><dd>10</dd></div></dl>
+    <p class="report-explanation">Одна запись может содержать несколько ошибок. Изменений формата в принятых данных: 11. Каждое записано в журнале с исходным и итоговым значением.</p>
+    <details class="issue-details"><summary>Посмотреть проблемы в данных (10)</summary><div class="table-scroll" tabindex="0" role="region" aria-label="Таблица ошибок"><table><caption>Ошибки исходных записей. Заголовок CSV считается записью 1.</caption><thead><tr><th scope="col">Запись</th><th scope="col">Артикул</th><th scope="col">Поле</th><th scope="col">Что исправить</th></tr></thead><tbody><tr><td>14</td><td><code>DUP-001</code></td><td><code>sku</code></td><td>Артикул повторяется. Все его записи исключены до уточнения.</td></tr><tr><td>15</td><td><code>DUP-001</code></td><td><code>sku</code></td><td>Артикул повторяется. Все его записи исключены до уточнения.</td></tr><tr><td>16</td><td><code>BAD-001</code></td><td><code>name</code></td><td>Обязательное поле не заполнено.</td></tr><tr><td>17</td><td><code>BAD-002</code></td><td><code>price</code></td><td>Нужна положительная цена, например 1290.00 или 1 290,00; до 2 знаков после запятой.</td></tr><tr><td>18</td><td><code>BAD-003</code></td><td><code>stock</code></td><td>Остаток должен быть целым числом от 0 до 999999.</td></tr><tr><td>19</td><td><code>BAD-004</code></td><td><code>category</code></td><td>Категория должна быть одной из: Организация, Бумага, Аксессуары.</td></tr><tr><td>20</td><td><code>—</code></td><td><code>sku</code></td><td>Обязательное поле не заполнено.</td></tr><tr><td>20</td><td><code>—</code></td><td><code>price</code></td><td>Нужна положительная цена, например 1290.00 или 1 290,00; до 2 знаков после запятой.</td></tr><tr><td>21</td><td><code>=DEMO</code></td><td><code>sku</code></td><td>Артикул: 1-32 символа A-Z, 0-9, _ или -; первый символ буква или цифра.</td></tr><tr><td>21</td><td><code>=DEMO</code></td><td><code>price</code></td><td>Нужна положительная цена, например 1290.00 или 1 290,00; до 2 знаков после запятой.</td></tr></tbody></table></div></details>
+    <div class="report-links"><a href="normalized.csv" download><strong>Товары</strong><span>Нормализованный CSV ↓</span></a><a href="issues.csv" download><strong>Ошибки</strong><span>Записи и причины · CSV ↓</span></a><a href="changes.csv" download><strong>Изменения</strong><span>Значения до и после · CSV ↓</span></a><a href="report.json" download><strong>Полный отчёт</strong><span>Включая отклонённые записи · JSON ↓</span></a></div>
+    <p class="report-help">Чтобы обновить каталог, исправьте исходный CSV и запустите Python заново. Загрузка файлов через браузер не предусмотрена.</p>
+  </section>
+</main>
+<footer class="wrap"><strong>ProductFlow</strong><p>Демонстрационный проект на синтетических данных.<br>Подготовлен с использованием AI-инструментов.</p><a href="#top">В начало ↑</a></footer>
+</body>
+</html>
+

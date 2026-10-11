@@ -1,0 +1,27 @@
+{
+  "input_hardlink": {
+    "exit": 2,
+    "input_changed": false,
+    "expected": "Reject aliased output before writing; preserve input"
+  },
+  "unrelated_hardlink": {
+    "exit": 2,
+    "other_file_changed": false,
+    "expected": "Output must not modify files outside its directory"
+  },
+  "non_file_output": {
+    "exit": 2,
+    "normalized_changed": false,
+    "html_changed": false,
+    "expected": "Fail without changing previous output"
+  },
+  "missing_referenced_asset": {
+    "raised": true,
+    "type": "InputError"
+  },
+  "real_windows_junction": {
+    "exit": 2,
+    "outside_untouched": true,
+    "message": "Ошибка: Выходной путь перенаправлен файловой ссылкой: assets\\favicon.svg."
+  }
+}

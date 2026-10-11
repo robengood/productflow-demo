@@ -1,0 +1,145 @@
+[
+  {
+    "case": "header-only",
+    "exit": 0,
+    "accepted": 0,
+    "passed": true
+  },
+  {
+    "case": "missing-name",
+    "exit": 2,
+    "accepted": null,
+    "passed": true
+  },
+  {
+    "case": "wrong-case",
+    "exit": 2,
+    "accepted": null,
+    "passed": true
+  },
+  {
+    "case": "required-blank",
+    "exit": 0,
+    "accepted": 0,
+    "passed": true
+  },
+  {
+    "case": "blank-record",
+    "exit": 0,
+    "accepted": 2,
+    "passed": true
+  },
+  {
+    "case": "full-duplicate",
+    "exit": 0,
+    "accepted": 0,
+    "passed": true
+  },
+  {
+    "case": "partial-duplicate",
+    "exit": 0,
+    "accepted": 0,
+    "passed": true
+  },
+  {
+    "case": "case-space-duplicate",
+    "exit": 0,
+    "accepted": 0,
+    "passed": true
+  },
+  {
+    "case": "negative-price",
+    "exit": 0,
+    "accepted": 0,
+    "passed": true
+  },
+  {
+    "case": "mixed-separators",
+    "exit": 0,
+    "accepted": 0,
+    "passed": true
+  },
+  {
+    "case": "nbsp-price",
+    "exit": 0,
+    "accepted": 1,
+    "passed": true
+  },
+  {
+    "case": "invisible",
+    "exit": 0,
+    "accepted": 0,
+    "passed": true
+  },
+  {
+    "case": "cyrillic-sku",
+    "exit": 0,
+    "accepted": 0,
+    "passed": true
+  },
+  {
+    "case": "unicode-name",
+    "exit": 0,
+    "accepted": 1,
+    "passed": true
+  },
+  {
+    "case": "html-text",
+    "exit": 0,
+    "accepted": 1,
+    "passed": true
+  },
+  {
+    "case": "formula",
+    "exit": 0,
+    "accepted": 0,
+    "passed": true
+  },
+  {
+    "case": "long-name",
+    "exit": 0,
+    "accepted": 0,
+    "passed": true
+  },
+  {
+    "case": "long-description",
+    "exit": 0,
+    "accepted": 0,
+    "passed": true
+  },
+  {
+    "case": "max-numbers",
+    "exit": 0,
+    "accepted": 1,
+    "passed": true
+  },
+  {
+    "case": "quoted-multiline",
+    "exit": 0,
+    "accepted": 1,
+    "passed": true
+  },
+  {
+    "case": "empty",
+    "exit": 2,
+    "output_exists": false,
+    "passed": true
+  },
+  {
+    "case": "wrong-encoding",
+    "exit": 2,
+    "output_exists": false,
+    "passed": true
+  },
+  {
+    "case": "damaged",
+    "exit": 2,
+    "output_exists": false,
+    "passed": true
+  },
+  {
+    "case": "missing-file",
+    "exit": 2,
+    "passed": true
+  }
+]

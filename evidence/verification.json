@@ -1,0 +1,33 @@
+{
+  "checked_at_moscow": "2026-10-09T15:28:10+03:00",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "test_count": 46,
+  "test_exit_code": 0,
+  "summary": {
+    "input_records": 20,
+    "accepted_records": 12,
+    "rejected_records": 8,
+    "issue_count": 10
+  },
+  "source_sha256": "7da418d8c31fef52c91d16c3a492349099a4f5d9e24bd5a16d45e7c1c96ecf43",
+  "checks": {
+    "all_tests_passed": true,
+    "build_exit_zero": true,
+    "counts_reconcile": true,
+    "report_issue_count_matches_csv": true,
+    "html_skus_match_normalized_in_order": true,
+    "ids_unique": true,
+    "anchor_targets_exist": true,
+    "all_assets_and_download_targets_exist": true,
+    "no_external_references": true,
+    "no_javascript": true,
+    "source_hash_matches": true,
+    "change_count_matches_csv": true,
+    "rejected_raw_values_preserved": true,
+    "all_records_accounted_for": true,
+    "accepted_input_reconstructed_from_change_log": true,
+    "svg_xml_valid": true
+  },
+  "normalization_changes": 11
+}

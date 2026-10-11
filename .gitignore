@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+tmp/
+.productflow-*/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+site/
+release/
+*.log
+.DS_Store
+Thumbs.db

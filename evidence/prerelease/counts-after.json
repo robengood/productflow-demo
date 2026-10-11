@@ -1,0 +1,71 @@
+{
+  "counts": {
+    "input_records": 20,
+    "accepted_records": 12,
+    "rejected_records": 8,
+    "issue_count": 10,
+    "changes": 11
+  },
+  "checks": {
+    "build_exit_zero": true,
+    "all_product_fields_match": true,
+    "all_change_fields_match": true,
+    "error_records_fields_codes_match": true,
+    "rejected_raw_cells_preserved": true,
+    "accepted_and_rejected_cover_every_record": true,
+    "displayed_html_has_12_cards": true,
+    "source_untouched": true
+  },
+  "expected_error_keys": [
+    [
+      "14",
+      "sku",
+      "duplicate_sku"
+    ],
+    [
+      "15",
+      "sku",
+      "duplicate_sku"
+    ],
+    [
+      "16",
+      "name",
+      "required"
+    ],
+    [
+      "17",
+      "price",
+      "invalid_price"
+    ],
+    [
+      "18",
+      "stock",
+      "invalid_stock"
+    ],
+    [
+      "19",
+      "category",
+      "unknown_category"
+    ],
+    [
+      "20",
+      "sku",
+      "required"
+    ],
+    [
+      "20",
+      "price",
+      "invalid_price"
+    ],
+    [
+      "21",
+      "sku",
+      "sku_format"
+    ],
+    [
+      "21",
+      "price",
+      "invalid_price"
+    ]
+  ]
+}

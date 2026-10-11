@@ -1,0 +1,364 @@
+{
+  "project_type": "synthetic educational demo",
+  "source_file": "products_demo.csv",
+  "source_sha256": "7da418d8c31fef52c91d16c3a492349099a4f5d9e24bd5a16d45e7c1c96ecf43",
+  "summary": {
+    "input_records": 20,
+    "accepted_records": 12,
+    "rejected_records": 8,
+    "issue_count": 10
+  },
+  "issues": [
+    {
+      "source_record": 14,
+      "source_line_end": 14,
+      "sku": "DUP-001",
+      "field": "sku",
+      "code": "duplicate_sku",
+      "value": "DUP-001",
+      "message": "Артикул повторяется. Все его записи исключены до уточнения."
+    },
+    {
+      "source_record": 15,
+      "source_line_end": 15,
+      "sku": "DUP-001",
+      "field": "sku",
+      "code": "duplicate_sku",
+      "value": " dup-001 ",
+      "message": "Артикул повторяется. Все его записи исключены до уточнения."
+    },
+    {
+      "source_record": 16,
+      "source_line_end": 16,
+      "sku": "BAD-001",
+      "field": "name",
+      "code": "required",
+      "value": " ",
+      "message": "Обязательное поле не заполнено."
+    },
+    {
+      "source_record": 17,
+      "source_line_end": 17,
+      "sku": "BAD-002",
+      "field": "price",
+      "code": "invalid_price",
+      "value": "-100",
+      "message": "Нужна положительная цена, например 1290.00 или 1 290,00; до 2 знаков после запятой."
+    },
+    {
+      "source_record": 18,
+      "source_line_end": 18,
+      "sku": "BAD-003",
+      "field": "stock",
+      "code": "invalid_stock",
+      "value": "2.5",
+      "message": "Остаток должен быть целым числом от 0 до 999999."
+    },
+    {
+      "source_record": 19,
+      "source_line_end": 19,
+      "sku": "BAD-004",
+      "field": "category",
+      "code": "unknown_category",
+      "value": "Мебель",
+      "message": "Категория должна быть одной из: Организация, Бумага, Аксессуары."
+    },
+    {
+      "source_record": 20,
+      "source_line_end": 20,
+      "sku": "",
+      "field": "sku",
+      "code": "required",
+      "value": "",
+      "message": "Обязательное поле не заполнено."
+    },
+    {
+      "source_record": 20,
+      "source_line_end": 20,
+      "sku": "",
+      "field": "price",
+      "code": "invalid_price",
+      "value": "нет цены",
+      "message": "Нужна положительная цена, например 1290.00 или 1 290,00; до 2 знаков после запятой."
+    },
+    {
+      "source_record": 21,
+      "source_line_end": 21,
+      "sku": "=DEMO",
+      "field": "sku",
+      "code": "sku_format",
+      "value": "=DEMO",
+      "message": "Артикул: 1-32 символа A-Z, 0-9, _ или -; первый символ буква или цифра."
+    },
+    {
+      "source_record": 21,
+      "source_line_end": 21,
+      "sku": "=DEMO",
+      "field": "price",
+      "code": "invalid_price",
+      "value": "1.999",
+      "message": "Нужна положительная цена, например 1290.00 или 1 290,00; до 2 знаков после запятой."
+    }
+  ],
+  "changes": [
+    {
+      "source_record": 2,
+      "sku": "DS-001",
+      "field": "sku",
+      "before": " ds-001 ",
+      "after": "DS-001"
+    },
+    {
+      "source_record": 2,
+      "sku": "DS-001",
+      "field": "name",
+      "before": "  Лоток   «Линия»  ",
+      "after": "Лоток «Линия»"
+    },
+    {
+      "source_record": 2,
+      "sku": "DS-001",
+      "field": "category",
+      "before": " организация ",
+      "after": "Организация"
+    },
+    {
+      "source_record": 2,
+      "sku": "DS-001",
+      "field": "price",
+      "before": "1 290,00",
+      "after": "1290.00"
+    },
+    {
+      "source_record": 3,
+      "sku": "DS-002",
+      "field": "price",
+      "before": "890",
+      "after": "890.00"
+    },
+    {
+      "source_record": 6,
+      "sku": "PP-001",
+      "field": "price",
+      "before": "690",
+      "after": "690.00"
+    },
+    {
+      "source_record": 8,
+      "sku": "PP-003",
+      "field": "price",
+      "before": "320,00",
+      "after": "320.00"
+    },
+    {
+      "source_record": 9,
+      "sku": "PP-004",
+      "field": "price",
+      "before": "540",
+      "after": "540.00"
+    },
+    {
+      "source_record": 10,
+      "sku": "AC-001",
+      "field": "price",
+      "before": "1890",
+      "after": "1890.00"
+    },
+    {
+      "source_record": 12,
+      "sku": "AC-003",
+      "field": "price",
+      "before": "280",
+      "after": "280.00"
+    },
+    {
+      "source_record": 13,
+      "sku": "AC-004",
+      "field": "price",
+      "before": "390",
+      "after": "390.00"
+    }
+  ],
+  "source_columns": [
+    "sku",
+    "name",
+    "category",
+    "price",
+    "stock",
+    "description"
+  ],
+  "rejected_records": [
+    {
+      "source_record": 14,
+      "source_line_end": 14,
+      "values": [
+        "DUP-001",
+        "Повтор A",
+        "Организация",
+        "500",
+        "3",
+        "Намеренно повторяющийся артикул."
+      ],
+      "codes": [
+        "duplicate_sku"
+      ]
+    },
+    {
+      "source_record": 15,
+      "source_line_end": 15,
+      "values": [
+        " dup-001 ",
+        "Повтор B",
+        "Организация",
+        "600",
+        "4",
+        "Повтор после нормализации регистра и пробелов."
+      ],
+      "codes": [
+        "duplicate_sku"
+      ]
+    },
+    {
+      "source_record": 16,
+      "source_line_end": 16,
+      "values": [
+        "BAD-001",
+        " ",
+        "Бумага",
+        "300",
+        "2",
+        "Намеренно пустое обязательное название."
+      ],
+      "codes": [
+        "required"
+      ]
+    },
+    {
+      "source_record": 17,
+      "source_line_end": 17,
+      "values": [
+        "BAD-002",
+        "Отрицательная цена",
+        "Бумага",
+        "-100",
+        "2",
+        "Намеренно ошибочная цена."
+      ],
+      "codes": [
+        "invalid_price"
+      ]
+    },
+    {
+      "source_record": 18,
+      "source_line_end": 18,
+      "values": [
+        "BAD-003",
+        "Дробный остаток",
+        "Аксессуары",
+        "300",
+        "2.5",
+        "Намеренно ошибочное количество."
+      ],
+      "codes": [
+        "invalid_stock"
+      ]
+    },
+    {
+      "source_record": 19,
+      "source_line_end": 19,
+      "values": [
+        "BAD-004",
+        "Неизвестная категория",
+        "Мебель",
+        "300",
+        "2",
+        "Намеренно неизвестная категория."
+      ],
+      "codes": [
+        "unknown_category"
+      ]
+    },
+    {
+      "source_record": 20,
+      "source_line_end": 20,
+      "values": [
+        "",
+        "Ошибка в двух полях",
+        "Бумага",
+        "нет цены",
+        "2",
+        "Пустой артикул и текст вместо цены."
+      ],
+      "codes": [
+        "required",
+        "invalid_price"
+      ]
+    },
+    {
+      "source_record": 21,
+      "source_line_end": 21,
+      "values": [
+        "=DEMO",
+        "Неверный формат",
+        "Аксессуары",
+        "1.999",
+        "2",
+        "Недопустимый артикул и лишние знаки в цене."
+      ],
+      "codes": [
+        "sku_format",
+        "invalid_price"
+      ]
+    }
+  ],
+  "accepted_records": [
+    {
+      "sku": "DS-001",
+      "source_record": 2
+    },
+    {
+      "sku": "DS-002",
+      "source_record": 3
+    },
+    {
+      "sku": "DS-003",
+      "source_record": 4
+    },
+    {
+      "sku": "DS-004",
+      "source_record": 5
+    },
+    {
+      "sku": "PP-001",
+      "source_record": 6
+    },
+    {
+      "sku": "PP-002",
+      "source_record": 7
+    },
+    {
+      "sku": "PP-003",
+      "source_record": 8
+    },
+    {
+      "sku": "PP-004",
+      "source_record": 9
+    },
+    {
+      "sku": "AC-001",
+      "source_record": 10
+    },
+    {
+      "sku": "AC-002",
+      "source_record": 11
+    },
+    {
+      "sku": "AC-003",
+      "source_record": 12
+    },
+    {
+      "sku": "AC-004",
+      "source_record": 13
+    }
+  ]
+}

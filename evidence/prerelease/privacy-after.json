@@ -1,0 +1,24 @@
+{
+  "checked_files": 108,
+  "findings": [],
+  "pdf_text_and_metadata_checked": true,
+  "image_metadata_checked": true,
+  "font_flags": [
+    {
+      "name": "Arial Regular",
+      "fsType": 8
+    },
+    {
+      "name": "Arial Bold",
+      "fsType": 8
+    }
+  ],
+  "application_dependencies": "stdlib only",
+  "authoring_versions": {
+    "reportlab": "4.4.9",
+    "Pillow": "12.3.0",
+    "pypdf": "6.10.0"
+  },
+  "resume_available": false,
+  "scope": "Known-format scan and manual project review; not an exhaustive secret/DLP/legal/security audit."
+}

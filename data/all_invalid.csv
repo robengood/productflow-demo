@@ -1,0 +1,2 @@
+sku;name;category;price;stock;description
+BAD-PRICE;Блокнот;Бумага;-100;3;Пример записи с ошибочной ценой.

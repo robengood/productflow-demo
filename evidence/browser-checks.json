@@ -1,0 +1,277 @@
+{
+  "checked_at": "2026-10-09T12:30:10.194Z",
+  "browser": "Codex In-app Browser (Chromium)",
+  "viewports": [
+    {
+      "cards": 12,
+      "clientWidth": 305,
+      "clippedBodies": 0,
+      "gridColumns": "265px",
+      "height": 844,
+      "imagesLoaded": true,
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "cards": 12,
+      "clientWidth": 360,
+      "clippedBodies": 0,
+      "gridColumns": "320px",
+      "height": 844,
+      "imagesLoaded": true,
+      "scrollWidth": 360,
+      "width": 375
+    },
+    {
+      "cards": 12,
+      "clientWidth": 753,
+      "clippedBodies": 0,
+      "gridColumns": "334.5px 334.5px",
+      "height": 844,
+      "imagesLoaded": true,
+      "scrollWidth": 753,
+      "width": 768
+    },
+    {
+      "cards": 12,
+      "clientWidth": 1009,
+      "clippedBodies": 0,
+      "gridColumns": "462.5px 462.5px",
+      "height": 844,
+      "imagesLoaded": true,
+      "scrollWidth": 1009,
+      "width": 1024
+    },
+    {
+      "cards": 12,
+      "clientWidth": 1425,
+      "clippedBodies": 0,
+      "gridColumns": "281px 281px 281px 281px",
+      "height": 1000,
+      "imagesLoaded": true,
+      "scrollWidth": 1425,
+      "width": 1440
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Товары",
+      "expected": "#catalog",
+      "actual": "#catalog"
+    },
+    {
+      "name": "Обработка данных",
+      "expected": "#data-report",
+      "actual": "#data-report"
+    },
+    {
+      "name": "Организация",
+      "expected": "#organization",
+      "actual": "#organization"
+    },
+    {
+      "name": "Бумага",
+      "expected": "#paper",
+      "actual": "#paper"
+    },
+    {
+      "name": "Аксессуары",
+      "expected": "#accessories",
+      "actual": "#accessories"
+    },
+    {
+      "name": "В начало ↑",
+      "expected": "#top",
+      "actual": "#top"
+    }
+  ],
+  "downloads": [
+    {
+      "file": "normalized.csv",
+      "matchesOutput": true
+    },
+    {
+      "file": "issues.csv",
+      "matchesOutput": true
+    },
+    {
+      "file": "changes.csv",
+      "matchesOutput": true
+    },
+    {
+      "file": "report.json",
+      "matchesOutput": true
+    }
+  ],
+  "emptyStates": [
+    {
+      "cards": 0,
+      "overflow": false,
+      "reason": "Пока нет товаров\n\nВ CSV есть только заголовок. Добавьте товары и повторите сборку.\n\nОткрыть результаты обработки ↓",
+      "url": "http://127.0.0.1:8768/empty/#catalog"
+    },
+    {
+      "cards": 0,
+      "overflow": false,
+      "reason": "Пока нет товаров\n\nВсе записи отклонены. Посмотрите причины в отчёте, исправьте CSV и повторите сборку.\n\nОткрыть результаты обработки ↓",
+      "url": "http://127.0.0.1:8768/invalid/#catalog"
+    }
+  ],
+  "desktopGeometry": {
+    "catalog": 380.734375,
+    "firstCard": 551.875,
+    "organization": 513.125,
+    "report": 1915.625,
+    "uniqueImages": 12,
+    "width": 1440
+  },
+  "keyboardFocus": {
+    "focusVisible": true,
+    "outline": "rgb(154, 84, 45) solid 3px",
+    "text": "Товары"
+  },
+  "details": {
+    "open": true,
+    "rows": 10,
+    "closesWithEnter": true
+  },
+  "catalogShotGeometry": {
+    "card": {
+      "bottom": 451.625,
+      "height": 388.75,
+      "left": 120.5,
+      "right": 401.5,
+      "top": 62.875,
+      "width": 281,
+      "x": 120.5,
+      "y": 62.875
+    },
+    "clientWidth": 1425,
+    "section": {
+      "bottom": 451.625,
+      "height": 427.5,
+      "left": 120.5,
+      "right": 1304.5,
+      "top": 24.125,
+      "width": 1184,
+      "x": 120.5,
+      "y": 24.125
+    }
+  },
+  "contrast": [
+    {
+      "background": "rgb(232, 237, 227)",
+      "color": "rgb(82, 100, 86)",
+      "ratio": 5.323876584448816,
+      "sku": "DS-001"
+    },
+    {
+      "background": "rgb(232, 237, 227)",
+      "color": "rgb(82, 100, 86)",
+      "ratio": 5.323876584448816,
+      "sku": "DS-002"
+    },
+    {
+      "background": "rgb(232, 237, 227)",
+      "color": "rgb(82, 100, 86)",
+      "ratio": 5.323876584448816,
+      "sku": "DS-003"
+    },
+    {
+      "background": "rgb(232, 237, 227)",
+      "color": "rgb(82, 100, 86)",
+      "ratio": 5.323876584448816,
+      "sku": "DS-004"
+    },
+    {
+      "background": "rgb(238, 234, 223)",
+      "color": "rgb(82, 100, 86)",
+      "ratio": 5.268404151721571,
+      "sku": "PP-001"
+    },
+    {
+      "background": "rgb(238, 234, 223)",
+      "color": "rgb(82, 100, 86)",
+      "ratio": 5.268404151721571,
+      "sku": "PP-002"
+    },
+    {
+      "background": "rgb(238, 234, 223)",
+      "color": "rgb(82, 100, 86)",
+      "ratio": 5.268404151721571,
+      "sku": "PP-003"
+    },
+    {
+      "background": "rgb(238, 234, 223)",
+      "color": "rgb(82, 100, 86)",
+      "ratio": 5.268404151721571,
+      "sku": "PP-004"
+    },
+    {
+      "background": "rgb(232, 236, 233)",
+      "color": "rgb(82, 100, 86)",
+      "ratio": 5.309381635095395,
+      "sku": "AC-001"
+    },
+    {
+      "background": "rgb(232, 236, 233)",
+      "color": "rgb(82, 100, 86)",
+      "ratio": 5.309381635095395,
+      "sku": "AC-002"
+    },
+    {
+      "background": "rgb(232, 236, 233)",
+      "color": "rgb(82, 100, 86)",
+      "ratio": 5.309381635095395,
+      "sku": "AC-003"
+    },
+    {
+      "background": "rgb(232, 236, 233)",
+      "color": "rgb(82, 100, 86)",
+      "ratio": 5.309381635095395,
+      "sku": "AC-004"
+    }
+  ],
+  "mobileGeometry": {
+    "card": {
+      "bottom": 440.671875,
+      "height": 378.140625,
+      "left": 20,
+      "right": 340,
+      "top": 62.53125,
+      "width": 320,
+      "x": 20,
+      "y": 62.53125
+    },
+    "clientWidth": 360,
+    "width": 375
+  },
+  "mobileExpandedReport": {
+    "pageOverflow": false,
+    "tableClientWidth": 318,
+    "tableScrollable": true
+  },
+  "at320Cards": {
+    "cardWidth": 265,
+    "overflow": false
+  },
+  "logs": [],
+  "hover": {
+    "color": "rgb(34, 61, 52)",
+    "matched": false,
+    "underline": "rgb(169, 185, 162)"
+  },
+  "captureMode": "viewport",
+  "completed_at": "2026-10-09T13:39:43.255Z",
+  "artifact_sha256": {
+    "output/index.html": "88645cada8e28965260a04765cab37df30a39cc7b86b9b3a1705668a47eb4e67",
+    "output/style.css": "1a1a791787db13f1f53b7362aa2f8ed64c5862e9d649a667522b58093d93d2c9",
+    "output/report.json": "4651c202370c723e60dd40ebe79f6b5c0f236a5a89c296bda8ac5b6e987daca1"
+  },
+  "escapedHTML": {
+    "description": "<img src=x onerror=alert(1)>",
+    "onerrorAttributes": 0,
+    "scripts": 0,
+    "title": "<script>alert(\"x\")</script>"
+  }
+}

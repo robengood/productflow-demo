@@ -1,0 +1,5 @@
+# Only for rebuilding the portfolio PDF; application and tests use stdlib.
+reportlab>=4.0,<5
+# Real screenshot cropping and PDF inspection helpers:
+Pillow>=10,<13
+pypdf>=5,<7
